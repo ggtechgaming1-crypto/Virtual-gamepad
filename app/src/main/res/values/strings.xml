@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">PadForge</string>
+    <string name="tagline">Built-in Wireless ADB Virtual Gamepad</string>
+    <string name="status_ready">Engine Armed</string>
+    <string name="status_overlay_active">Overlay Active</string>
+    <string name="status_setup_required">Setup Required</string>
+
+    <string name="section_builtin_engine">Built-in Shizuku Engine</string>
+    <string name="builtin_engine_subtitle">No third-party Shizuku app needed — connects directly via Wireless Debugging</string>
+    <string name="builtin_state_not_paired">Step 1: Tap Pair Code once so PadForge appears under Paired devices</string>
+    <string name="builtin_state_paired_idle">Paired • Tap Connect to boot the built-in engine</string>
+    <string name="builtin_state_pairing">Pairing with Wireless Debugging…</string>
+    <string name="builtin_state_connecting">Connecting Wireless Debugging &amp; booting daemon…</string>
+    <string name="builtin_state_connected">Built-in Engine Active • Zero-Lag ASYNC Hardware Injection</string>
+    <string name="builtin_state_error">Connection error — ensure PadForge is paired &amp; Wireless Debugging is ON</string>
+    <string name="action_pair_wireless">Pair Code</string>
+    <string name="action_connect_wireless">Connect</string>
+    <string name="action_disconnect_wireless">Stop Engine</string>
+    <string name="action_open_dev_options">Developer Options</string>
+    <string name="action_pair_via_notification">Pair via Notification</string>
+
+    <string name="dialog_pair_title">Pair Wireless Debugging</string>
+    <string name="dialog_pair_guide">Recommended: Tap \"Pair via Notification\" below, open Wireless debugging -> Pair device with pairing code, then pull down the notification shade and type the 6-digit code without leaving the pairing popup.</string>
+    <string name="dialog_pair_manual_divider">OR PAIR IN SPLIT-SCREEN</string>
+    <string name="dialog_connect_title">Connect Wireless Debugging</string>
+    <string name="dialog_connect_guide">Ensure Wireless debugging is ON and PadForge is listed under Paired devices. Leave port empty for auto-discovery or confirm the detected port below.</string>
+    <string name="field_pairing_port">Pairing Port</string>
+    <string name="field_pairing_code">6-Digit Pairing Code</string>
+    <string name="field_connect_port">Connect Port (Auto-Detected)</string>
+    <string name="mdns_detected_badge">Auto-detected: %1$s:%2$d</string>
+    <string name="action_pair_now">Pair Now</string>
+    <string name="action_connect_now">Connect &amp; Start</string>
+    <string name="action_cancel">Cancel</string>
+
+    <string name="notif_pair_channel_name">Wireless Debugging Pairing</string>
+    <string name="notif_pair_channel_desc">Inline 6-digit code entry for built-in Wireless Debugging pairing</string>
+    <string name="notif_pair_searching_title">Searching for pairing service…</string>
+    <string name="notif_pair_searching_body">Open Wireless debugging -> Pair device with pairing code, then enter the 6-digit code below.</string>
+    <string name="notif_pair_found_title">Pairing service found (Port %1$d)</string>
+    <string name="notif_pair_found_body">Tap \"Enter Pairing Code\" below and type the 6-digit code shown on screen.</string>
+    <string name="notif_pair_reply_action">Enter Pairing Code</string>
+    <string name="notif_pair_invalid_code">Please enter a valid 6-digit numeric pairing code.</string>
+    <string name="notif_pair_success_title">PadForge Paired Successfully</string>
+    <string name="notif_pair_failed_title">Wireless Pairing Failed</string>
+
+    <string name="section_system_checks">System Permissions</string>
+    <string name="perm_overlay_title">Screen Overlay Permission</string>
+    <string name="perm_overlay_granted">Allowed to draw floating controls over games</string>
+    <string name="perm_overlay_denied">Required to display zero-focus virtual controls</string>
+    <string name="perm_overlay_action">Grant</string>
+
+    <string name="perm_notif_title">Overlay Status Notification</string>
+    <string name="perm_notif_desc">Keeps foreground controller service alive with quick actions</string>
+    <string name="perm_notif_granted">Enabled</string>
+
+    <string name="section_controller_deck">Controller Deck</string>
+    <string name="action_start_overlay">Launch Gamepad Overlay</string>
+    <string name="action_stop_overlay">Stop Gamepad Overlay</string>
+    <string name="edit_mode_title">Layout Edit Mode</string>
+    <string name="edit_mode_desc">Drag buttons &amp; sticks anywhere on screen to customize</string>
+    <string name="action_reset_layout">Reset Positions</string>
+
+    <string name="section_tuning">Ergonomics &amp; Tuning</string>
+    <string name="opacity_label">Controller Opacity</string>
+    <string name="scale_label">Control Size Scale</string>
+    <string name="haptics_title">Tactile Haptic Feedback</string>
+    <string name="haptics_desc">VibratorManager feedback on button, trigger, &amp; D-pad press</string>
+    <string name="haptic_intensity_label">Vibration Intensity</string>
+    <string name="haptic_preset_light">Light</string>
+    <string name="haptic_preset_crisp">Crisp</string>
+    <string name="haptic_preset_strong">Heavy</string>
+    <string name="haptic_test_action">Test Pulse</string>
+
+    <string name="section_telemetry">Live Input Telemetry</string>
+    <string name="telemetry_idle">No events injected yet</string>
+    <string name="telemetry_packets_label">Injected Packets</string>
+    <string name="telemetry_left_stick">L-Stick</string>
+    <string name="telemetry_right_stick">R-Stick</string>
+    <string name="telemetry_last_event">Last Signal</string>
+
+    <string name="notif_channel_name">Virtual Gamepad Overlay</string>
+    <string name="notif_channel_desc">Persistent service notification for PadForge overlay controls</string>
+    <string name="notif_title">PadForge Controller Active</string>
+    <string name="notif_text_normal">Multi-touch hardware gamepad overlay is running</string>
+    <string name="notif_text_edit">Edit Mode active — drag controls to reposition</string>
+    <string name="notif_action_edit">Edit Layout</string>
+    <string name="notif_action_lock">Lock Layout</string>
+    <string name="notif_action_stop">Stop</string>
+
+    <string name="overlay_done_editing">Done</string>
+    <string name="overlay_edit_hint">Drag to move • Tap any button to map keys</string>
+
+    <string name="section_control_settings">Control Settings &amp; Profiles</string>
+    <string name="control_settings_subtitle">Customize profiles, extra buttons, and 1–4 multi-key combos (Xbox, PlayStation, PC Keyboard &amp; Mouse)</string>
+    <string name="control_settings_extra_count">Extra Buttons: %1$d</string>
+    <string name="control_settings_combo_count">Multi-Key Combos: %1$d</string>
+    <string name="action_add_extra_button">Add Extra Button (+)</string>
+    <string name="control_settings_tap_hint">Tap any button below to edit label, size, or bind 1–4 universal keys</string>
+    <string name="control_settings_tap_hint_active">Customize directly on the overlay via the floating ⚙ bar, or tap any button below</string>
+    <string name="dialog_btn_config_title">Configure Button (%1$s)</string>
+    <string name="dialog_btn_config_extra_title">Configure Extra Button (%1$s)</string>
+    <string name="field_button_label">Display Label</string>
+    <string name="hint_button_label">e.g. L1+R1, Shift, Click</string>
+    <string name="field_button_size">Button Size (%1$d%%)</string>
+    <string name="hint_search_keys">Search keys (L1, Shift, Space, Triangle, F1, Click…)</string>
+    <string name="search_no_results">No matching keys found</string>
+    <string name="action_autofill_combo">Auto-Fill</string>
+    <string name="multi_key_counter">Selected (%1$d/%2$d): %3$s</string>
+    <string name="multi_key_max_warning">Maximum %1$d keys can be mapped to a single button</string>
+    <string name="action_delete_extra_button">Delete Extra Button</string>
+    <string name="action_save">Save</string>
+    <string name="profile_selector_label">Active Controller Profile</string>
+
+    <string name="cd_status_icon">Status indicator</string>
+    <string name="cd_gamepad_emblem">PadForge virtual gamepad emblem</string>
+    <string name="cd_clear_search">Clear search</string>
+</resources>

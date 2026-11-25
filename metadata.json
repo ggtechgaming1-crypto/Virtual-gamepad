@@ -1,0 +1,6 @@
+{
+  "name": "PadForge",
+  "description": "Zero-lag native Android virtual hardware game controller overlay powered by Shizuku input injection.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
